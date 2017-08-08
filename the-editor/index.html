@@ -1,0 +1,341 @@
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>Using the Ghost editor</title>
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Using the Ghost editor">
+
+
+    <meta property="og:url" content="http://localhost:2368">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Using the Ghost editor">
+    <meta property="og:site_name" content="Kishan's Blog">
+
+    <meta itemprop="name" content="Using the Ghost editor">
+
+    <meta name="twitter:site" content="@yourblogtwitter">
+
+<meta name="twitter:creator" content="@yourtwitter">
+
+<meta property="article:author" content="https://www.facebook.com/yourprofile">
+
+<meta property="article:publisher" content="https://www.facebook.com/yourblogprofile">
+
+<meta property="fb:admins" content="">
+
+<meta name="google-site-verification" content="">
+
+<link rel="author" href="https://plus.google.com/yourprofile">
+
+<meta name="theme-color" content="">
+
+    <link href="../favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="../apple-touch-icon-precomposed.png" rel="apple-touch-icon">
+
+    <link href="http://fonts.googleapis.com/" rel="dns-prefetch">
+    <link href="http://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic%7COpen+Sans:700,400&amp;subset=latin,latin-ext" rel="stylesheet">
+
+    <link rel="stylesheet" href="../assets/css/main.min.css?v=ab5e38157a">
+
+    <script type="text/javascript">
+      var ga_ua = 'UA-XXXXX-X';
+
+var disqus_shortname = 'example';
+
+var enable_pjax = true;
+
+      // Pace Options
+      // ==============
+      window.paceOptions = {
+        catchupTime: 100,
+        minTime: 100,
+        elements: false,
+        restartOnRequestAfter: 500,
+        startOnPageLoad: false
+      }
+
+      // Ghostium Globals
+      // ==============
+      window.GHOSTIUM = {};
+      GHOSTIUM.haveGA = typeof ga_ua !== 'undefined' && ga_ua !== 'UA-XXXXX-X';
+      GHOSTIUM.haveDisqus = typeof disqus_shortname !== 'undefined' && disqus_shortname !== 'example';
+      GHOSTIUM.enablePjax = typeof enable_pjax !== 'undefined' ? enable_pjax : true;
+    </script>
+
+    <script src="../assets/js/head-scripts.min.js?v=ab5e38157a"></script>
+
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="index.html">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <link rel="amphtml" href="amp/index.html">
+    
+    <meta property="og:site_name" content="Kishan's Blog">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Using the Ghost editor">
+    <meta property="og:description" content="Ghost uses a language called Markdown to format text. When you go to edit a post and see special characters and colours intertwined between the words, those are Markdown shortcuts which tell Ghost what to do with the words in your document. The biggest benefit of Markdown is that you">
+    <meta property="og:url" content="http://localhost:2368/the-editor/">
+    <meta property="og:image" content="https://casper.ghost.org/v1.0.0/images/writing.jpg">
+    <meta property="article:published_time" content="2017-08-07T22:38:18.000Z">
+    <meta property="article:modified_time" content="2017-08-07T22:38:13.000Z">
+    <meta property="article:tag" content="Getting Started">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Using the Ghost editor">
+    <meta name="twitter:description" content="Ghost uses a language called Markdown to format text. When you go to edit a post and see special characters and colours intertwined between the words, those are Markdown shortcuts which tell Ghost what to do with the words in your document. The biggest benefit of Markdown is that you">
+    <meta name="twitter:url" content="http://localhost:2368/the-editor/">
+    <meta name="twitter:image" content="https://casper.ghost.org/v1.0.0/images/writing.jpg">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="Ghost">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="Getting Started">
+    <meta property="og:image:width" content="1400">
+    <meta property="og:image:height" content="935">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Kishan&#x27;s Blog",
+        "logo": "http://localhost:2368/content/images/2017/08/K_logo.jpg"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Ghost",
+        "url": "http://localhost:2368/author/ghost/",
+        "sameAs": []
+    },
+    "headline": "Using the Ghost editor",
+    "url": "http://localhost:2368/the-editor/",
+    "datePublished": "2017-08-07T22:38:18.000Z",
+    "dateModified": "2017-08-07T22:38:13.000Z",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://casper.ghost.org/v1.0.0/images/writing.jpg",
+        "width": 1400,
+        "height": 935
+    },
+    "keywords": "Getting Started",
+    "description": "Ghost uses a language called Markdown to format text. When you go to edit a post and see special characters and colours intertwined between the words, those are Markdown shortcuts which tell Ghost what to do with the words in your document. The biggest benefit of Markdown is that you",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://localhost:2368/"
+    }
+}
+    </script>
+
+    <script type="text/javascript" src="../public/ghost-sdk.js?v=ab5e38157a"></script>
+<script type="text/javascript">
+ghost.init({
+	clientId: "ghost-frontend",
+	clientSecret: "e9829b8e0d60"
+});
+</script>
+    <meta name="generator" content="Ghost 1.5">
+    <link rel="alternate" type="application/rss+xml" title="Kishan's Blog" href="../rss/index.html">
+  </head>
+  <body class="post-template tag-getting-started">
+
+    <button data-action="open-drawer" id="drawer-button" class="drawer-button"><i class="fa fa-bars"></i></button>
+<nav tabindex="-1" class="drawer">
+  <div class="drawer-container">
+    <!--.drawer-search(role="search")-->
+    <ul role="navigation" class="drawer-list">
+      
+<li class="drawer-list-item">
+  <a href="../" data-pjax>
+    <i class="fa fa-home"></i>Home
+  </a>
+</li>
+<li class="drawer-list-divider">
+<li class="drawer-list-item drawer-list-title">
+  Follow me
+</li>
+<li class="drawer-list-item">
+  <a href="http://twitter.com" target="_blank">
+    <i class="fa fa-twitter"></i>Twitter
+  </a>
+</li>
+<li class="drawer-list-item">
+  <a href="https://github.com/kdedakia/" target="_blank">
+    <i class="fa fa-github"></i>Github
+  </a>
+</li>
+    </ul>
+  </div>
+</nav>
+
+    <div class="drawer-overlay"></div>
+    <main id="container" role="main" class="container">
+      <div class="surface">
+        <div class="surface-container">
+          <div data-pjax-container class="content">
+            
+<section class="wrapper wrapper-post">
+  <div class="wrapper-container">
+    <article itemscope itemtype="http://schema.org/BlogPosting" role="article" class="post post tag-getting-started">
+        <section class="post-container">
+          <header class="post-header">
+            <ul class="post-meta-list">
+              <li class="post-meta-item">
+                <time datetime="2017-08-07" itemprop="datePublished">
+                  7 hours ago
+                </time>
+              </li>
+                <li class="post-meta-item">
+                    <a itemprop="articleSection" href="../tag/getting-started/" data-pjax>Getting Started</a> 
+                </li>
+              <li class="post-meta-item">
+                <a href="index.html#disqus_thread" data-disqus-identifier="5988ebd59ca2acfbe8455e4b">Comments</a>
+              </li>
+            </ul>
+            <h1 itemprop="name headline" class="post-title"><a href="index.html" itemprop="url" data-pjax title="Using the Ghost editor">Using the Ghost editor</a></h1>
+            <!--h2 itemprop="about" class="post-subtitle"></h2-->
+          </header>
+          <aside class="post-side">
+            <div class="post-author">
+              <div class="post-author-info">
+                <a href="index.html" class="post-author-name">
+                  Ghost
+                </a>
+                <p class="post-author-bio"></p>
+              </div>
+            </div>
+          </aside>
+          <div itemprop="articleBody" class="post-body">
+            <div class="kg-card-markdown"><p>Ghost uses a language called <strong>Markdown</strong> to format text.</p>
+<p>When you go to edit a post and see special characters and colours intertwined between the words, those are Markdown shortcuts which tell Ghost what to do with the words in your document. The biggest benefit of Markdown is that you can quickly apply formatting as you type, without needing to pause.</p>
+<p>At the bottom of the editor, you'll find a toolbar with basic formatting options to help you get started as easily as possible. You'll also notice that there's a <strong>?</strong> icon, which contains more advanced shortcuts.</p>
+<p>For now, though, let's run you through some of the basics. You'll want to make sure you're editing this post in order to see all the Markdown we've used.</p>
+<h2 id="formattingtext">Formatting text</h2>
+<p>The most common shortcuts are of course, <strong>bold</strong> text, <em>italic</em> text, and <a href="https://example.com">hyperlinks</a>. These generally make up the bulk of any document. You can type the characters out, but you can also use keyboard shortcuts.</p>
+<ul>
+<li><code>CMD/Ctrl + B</code> for Bold</li>
+<li><code>CMD/Ctrl + I</code> for Italic</li>
+<li><code>CMD/Ctrl + K</code> for a Link</li>
+<li><code>CMD/Ctrl + H</code> for a Heading (Press multiple times for h2/h3/h4/etc)</li>
+</ul>
+<p>With just a couple of extra characters here and there, you're well on your way to creating a beautifully formatted story.</p>
+<h2 id="insertingimages">Inserting images</h2>
+<p>Images in Markdown look just the same as links, except they're prefixed with an exclamation mark, like this:</p>
+<p><code>![Image description](/path/to/image.jpg)</code></p>
+<p><img src="https://casper.ghost.org/v1.0.0/images/computer.jpg" alt="Computer"></p>
+<p>Most Markdown editors don't make you type this out, though. In Ghost you can click on the image icon in the toolbar at the bottom of the editor, or you can just click and drag an image from your desktop directly into the editor. Both will upload the image for you and generate the appropriate Markdown.</p>
+<p><em><strong>Important Note:</strong> Ghost does not currently have automatic image resizing, so it's always a good idea to make sure your images aren't gigantic files <strong>before</strong> uploading them to Ghost.</em></p>
+<h2 id="makinglists">Making lists</h2>
+<p>Lists in HTML are a formatting nightmare, but in Markdown they become an absolute breeze with just a couple of characters and a bit of smart automation. For numbered lists, just write out the numbers. For bullet lists, just use <code>*</code> or <code>-</code> or <code>+</code>. Like this:</p>
+<ol>
+<li>Crack the eggs over a bowl</li>
+<li>Whisk them together</li>
+<li>Make an omelette</li>
+</ol>
+<p>or</p>
+<ul>
+<li>Remember to buy milk</li>
+<li>Feed the cat</li>
+<li>Come up with idea for next story</li>
+</ul>
+<h2 id="addingquotes">Adding quotes</h2>
+<p>When you want to pull out a particularly good excerpt in the middle of a piece, you can use <code>&gt;</code> at the beginning of a paragraph to turn it into a Blockquote. You might've seen this formatting before in email clients.</p>
+<blockquote>
+<p>A well placed quote guides a reader through a story, helping them to understand the most important points being made</p>
+</blockquote>
+<p>All themes handles blockquotes slightly differently. Sometimes they'll look better kept shorter, while other times you can quote fairly hefty amounts of text and get away with it. Generally, the safest option is to use blockquotes sparingly.</p>
+<h2 id="dividingthingsup">Dividing things up</h2>
+<p>If you're writing a piece in parts and you just feel like you need to divide a couple of sections distinctly from each other, a horizontal rule might be just what you need. Dropping <code>---</code> on a new line will create a sleek divider, anywhere you want it.</p>
+<hr>
+<p>This should get you going with the vast majority of what you need to do in the editor, but if you're still curious about more advanced tips then check out the <a href="../advanced-markdown/">Advanced Markdown Guide</a> - or if you'd rather learn about how Ghost taxononomies work, we've got a overview of <a href="../using-tags/">how to use Ghost tags</a>.</p>
+</div>
+          </div>
+          <footer class="post-footer">
+            <div itemprop="author" itemscope itemtype="http://schema.org/Person" class="post-author">
+              <div class="post-author-info">
+                <h4 class="post-footer-heading">Written By</h4>
+                <a href="index.html" itemprop="url" class="post-author-name">
+                  <span itemprop="name">Ghost</span>
+                </a>
+                <p itemprop="description" class="post-author-bio"></p>
+                <p class="post-info">
+                  <b class="post-info-title">Published on</b>
+                  <time class="post-date">August 07, 2017</time>
+                </p>
+              </div>
+            </div>
+            <div class="post-social">
+              <h4 class="post-footer-heading">Spread the word</h4>
+              <a href="index.html#" data-action="share-twitter"><i class="fa fa-fw fa-lg fa-twitter"></i></a>
+              <a href="index.html#" data-action="share-facebook"><i class="fa fa-fw fa-lg fa-facebook"></i></a>
+              <a href="index.html#" data-action="share-gplus"><i class="fa fa-fw fa-lg fa-google-plus"></i></a>
+            </div>
+          </footer>
+        </section>
+      <section itemprop="comment" class="post-comments">
+        <div id="disqus_thread"></div>
+      </section>
+    </article>
+
+    <footer role="contentinfo" class="footer">
+</footer>
+  </div>
+</section>
+
+<script type="text/javascript">
+  if(GHOSTIUM.haveDisqus) {
+    var disqus_identifier = '5988ebd59ca2acfbe8455e4b';
+
+    if(typeof DISQUS !== 'object') {
+      (function () {
+      var s = document.createElement('script'); s.async = true;
+      s.type = 'text/javascript';
+      s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+      }());
+    }
+  } else {
+    document.querySelector('.post-comments').remove();
+  }
+</script>
+
+          </div>
+        </div>
+      </div>
+    </main>
+
+    
+
+    <script src="../assets/js/foot-scripts.min.js?v=ab5e38157a"></script>
+
+    <script type="text/javascript">
+
+      if(GHOSTIUM.haveGA) {
+        (function(g,h,o,s,t,z){g.GoogleAnalyticsObject=s;g[s]||(g[s]=
+        function(){(g[s].q=g[s].q||[]).push(arguments)});g[s].s=+new Date;
+        t=h.createElement(o);z=h.getElementsByTagName(o)[0];
+        t.src='//www.google-analytics.com/analytics.js';
+        z.parentNode.insertBefore(t,z)}(window,document,'script','ga'));
+        ga('create',ga_ua);ga('send','pageview');
+      }
+
+      if(GHOSTIUM.haveDisqus) {
+        (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+      }
+    </script>
+  </body>
