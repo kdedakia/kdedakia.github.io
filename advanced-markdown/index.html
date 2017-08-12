@@ -1,107 +1,64 @@
-
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
     <title>Advanced Markdown tips</title>
-
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-
-
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Advanced Markdown tips">
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-    <meta property="og:url" content="http://localhost:2368">
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="Advanced Markdown tips">
-    <meta property="og:site_name" content="Kishan's Blog">
-
-    <meta itemprop="name" content="Advanced Markdown tips">
-
-    <meta name="twitter:site" content="@yourblogtwitter">
-
-<meta name="twitter:creator" content="@yourtwitter">
-
-<meta property="article:author" content="https://www.facebook.com/yourprofile">
-
-<meta property="article:publisher" content="https://www.facebook.com/yourblogprofile">
-
-<meta property="fb:admins" content="">
-
-<meta name="google-site-verification" content="">
-
-<link rel="author" href="https://plus.google.com/yourprofile">
-
-<meta name="theme-color" content="">
-
-    <link href="../favicon.ico" rel="shortcut icon" type="image/x-icon">
-    <link href="../apple-touch-icon-precomposed.png" rel="apple-touch-icon">
-
-    <link href="http://fonts.googleapis.com/" rel="dns-prefetch">
-    <link href="http://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic%7COpen+Sans:700,400&amp;subset=latin,latin-ext" rel="stylesheet">
-
-    <link rel="stylesheet" href="../assets/css/main.min.css?v=8ebd12cc77">
-
-    <script type="text/javascript">
-      var ga_ua = 'UA-XXXXX-X';
-
-var disqus_shortname = 'example';
-
-var enable_pjax = true;
-
-      // Pace Options
-      // ==============
-      window.paceOptions = {
-        catchupTime: 100,
-        minTime: 100,
-        elements: false,
-        restartOnRequestAfter: 500,
-        startOnPageLoad: false
-      }
-
-      // Ghostium Globals
-      // ==============
-      window.GHOSTIUM = {};
-      GHOSTIUM.haveGA = typeof ga_ua !== 'undefined' && ga_ua !== 'UA-XXXXX-X';
-      GHOSTIUM.haveDisqus = typeof disqus_shortname !== 'undefined' && disqus_shortname !== 'example';
-      GHOSTIUM.enablePjax = typeof enable_pjax !== 'undefined' ? enable_pjax : true;
-    </script>
-
-    <script src="../assets/js/head-scripts.min.js?v=8ebd12cc77"></script>
-
-    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
-    <link rel="canonical" href="index.html">
-    <meta name="referrer" content="no-referrer-when-downgrade">
-    <link rel="amphtml" href="amp/index.html">
+<link rel="apple-touch-icon" sizes="57x57" href="../assets/img/apple-touch-icon-57x57.png?v=wAAv6Wqe6l">
+<link rel="apple-touch-icon" sizes="60x60" href="../assets/img/apple-touch-icon-60x60.png?v=wAAv6Wqe6l">
+<link rel="apple-touch-icon" sizes="72x72" href="../assets/img/apple-touch-icon-72x72.png?v=wAAv6Wqe6l">
+<link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-touch-icon-76x76.png?v=wAAv6Wqe6l">
+<link rel="apple-touch-icon" sizes="114x114" href="../assets/img/apple-touch-icon-114x114.png?v=wAAv6Wqe6l">
+<link rel="apple-touch-icon" sizes="120x120" href="../assets/img/apple-touch-icon-120x120.png?v=wAAv6Wqe6l">
+<link rel="apple-touch-icon" sizes="144x144" href="../assets/img/apple-touch-icon-144x144.png?v=wAAv6Wqe6l">
+<link rel="apple-touch-icon" sizes="152x152" href="../assets/img/apple-touch-icon-152x152.png?v=wAAv6Wqe6l">
+<link rel="apple-touch-icon" sizes="180x180" href="../assets/img/apple-touch-icon-180x180.png?v=wAAv6Wqe6l">
+<link rel="icon" type="image/png" href="../assets/img/favicon-32x32.png?v=wAAv6Wqe6l" sizes="32x32">
+<link rel="icon" type="image/png" href="../assets/img/favicon-194x194.png?v=wAAv6Wqe6l" sizes="194x194">
+<link rel="icon" type="image/png" href="../assets/img/favicon-96x96.png?v=wAAv6Wqe6l" sizes="96x96">
+<link rel="icon" type="image/png" href="../assets/img/android-chrome-192x192.png?v=wAAv6Wqe6l" sizes="192x192">
+<link rel="icon" type="image/png" href="../assets/img/favicon-16x16.png?v=wAAv6Wqe6l" sizes="16x16">
+<link rel="manifest" href="../assets/img/manifest.json?v=wAAv6Wqe6l">
+<link rel="shortcut icon" href="../assets/img/favicon.ico?v=wAAv6Wqe6l">
+<meta name="msapplication-TileColor" content="#e74c3c">
+<meta name="msapplication-TileImage" content="/assets/img/mstile-144x144.png?v=wAAv6Wqe6l">
+<meta name="msapplication-config" content="/assets/img/browserconfig.xml?v=wAAv6Wqe6l">
+<meta name="theme-color" content="#e74c3c">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,600%7CRoboto+Slab:300,400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="../assets/css/uno-zen.css?v=0b4ea0a0b9" />
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+    <link rel="canonical" href="index.html" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    <link rel="amphtml" href="amp/index.html" />
     
-    <meta property="og:site_name" content="Kishan's Blog">
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="Advanced Markdown tips">
-    <meta property="og:description" content="There are lots of powerful things you can do with the Ghost editor If you've gotten pretty comfortable with all the basics of writing in Ghost, then you may enjoy some more advanced tips about the types of things you can do with Markdown! As with the last post about">
-    <meta property="og:url" content="http://localhost:2368/advanced-markdown/">
-    <meta property="og:image" content="https://casper.ghost.org/v1.0.0/images/advanced.jpg">
-    <meta property="article:published_time" content="2017-08-07T22:38:14.000Z">
-    <meta property="article:modified_time" content="2017-08-07T22:38:13.000Z">
-    <meta property="article:tag" content="Getting Started">
+    <meta property="og:site_name" content="Kishan&#x27;s Blog" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Advanced Markdown tips" />
+    <meta property="og:description" content="There are lots of powerful things you can do with the Ghost editor If you&#x27;ve gotten pretty comfortable with all the basics of writing in Ghost, then you may enjoy some more advanced tips about the types of things you can do with Markdown! As with the last post about" />
+    <meta property="og:url" content="http://localhost:2368/advanced-markdown/" />
+    <meta property="og:image" content="https://casper.ghost.org/v1.0.0/images/advanced.jpg" />
+    <meta property="article:published_time" content="2017-08-07T22:38:14.000Z" />
+    <meta property="article:modified_time" content="2017-08-07T22:38:13.000Z" />
+    <meta property="article:tag" content="Getting Started" />
     
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Advanced Markdown tips">
-    <meta name="twitter:description" content="There are lots of powerful things you can do with the Ghost editor If you've gotten pretty comfortable with all the basics of writing in Ghost, then you may enjoy some more advanced tips about the types of things you can do with Markdown! As with the last post about">
-    <meta name="twitter:url" content="http://localhost:2368/advanced-markdown/">
-    <meta name="twitter:image" content="https://casper.ghost.org/v1.0.0/images/advanced.jpg">
-    <meta name="twitter:label1" content="Written by">
-    <meta name="twitter:data1" content="Ghost">
-    <meta name="twitter:label2" content="Filed under">
-    <meta name="twitter:data2" content="Getting Started">
-    <meta property="og:image:width" content="1400">
-    <meta property="og:image:height" content="933">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Advanced Markdown tips" />
+    <meta name="twitter:description" content="There are lots of powerful things you can do with the Ghost editor If you&#x27;ve gotten pretty comfortable with all the basics of writing in Ghost, then you may enjoy some more advanced tips about the types of things you can do with Markdown! As with the last post about" />
+    <meta name="twitter:url" content="http://localhost:2368/advanced-markdown/" />
+    <meta name="twitter:image" content="https://casper.ghost.org/v1.0.0/images/advanced.jpg" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="Ghost" />
+    <meta name="twitter:label2" content="Filed under" />
+    <meta name="twitter:data2" content="Getting Started" />
+    <meta property="og:image:width" content="1400" />
+    <meta property="og:image:height" content="933" />
     
     <script type="application/ld+json">
 {
@@ -137,87 +94,114 @@ var enable_pjax = true;
 }
     </script>
 
-    <script type="text/javascript" src="../public/ghost-sdk.js?v=8ebd12cc77"></script>
+    <script type="text/javascript" src="../public/ghost-sdk.js?v=0b4ea0a0b9"></script>
 <script type="text/javascript">
 ghost.init({
 	clientId: "ghost-frontend",
 	clientSecret: "e9829b8e0d60"
 });
 </script>
-    <meta name="generator" content="Ghost 1.5">
-    <link rel="alternate" type="application/rss+xml" title="Kishan's Blog" href="../rss/index.html">
+    <meta name="generator" content="Ghost 1.5" />
+    <link rel="alternate" type="application/rss+xml" title="Kishan&#x27;s Blog" href="../rss/index.html" />
   </head>
   <body class="post-template tag-getting-started">
+    <header id="menu-button" class="expanded">
+      <a><i class="icon icon-list"></i></a>
+    </header>
+    <aside class="cover" style="background: url(../content/images/2017/08/Cover1.jpg) center/cover no-repeat fixed">
+  <div class="cover container">
+    <div class="profile">
+      <a id="avatar-link" title="link to homepage for Kishan&#x27;s Blog" href="../index.html#open">
+        <img src="../content/images/2017/08/K_logo.jpg" alt="Kishan&#x27;s Blog avatar" class="profile avatar rounded hvr-buzz-out" />
+        <h1 id="profile-title">Kishan&#x27;s Blog</h1>
+        <h3 id="profile-resume"></h3>
+      </a>
 
-    <button data-action="open-drawer" id="drawer-button" class="drawer-button"><i class="fa fa-bars"></i></button>
-<nav tabindex="-1" class="drawer">
-  <div class="drawer-container">
-    <!--.drawer-search(role="search")-->
-    <ul role="navigation" class="drawer-list">
-      
-<li class="drawer-list-item">
-  <a href="../" data-pjax>
-    <i class="fa fa-home"></i>Home
-  </a>
-</li>
-<li class="drawer-list-divider">
-<li class="drawer-list-item drawer-list-title">
-  Follow me
-</li>
-<li class="drawer-list-item">
-  <a href="http://twitter.com" target="_blank">
-    <i class="fa fa-twitter"></i>Twitter
-  </a>
-</li>
-<li class="drawer-list-item">
-  <a href="https://github.com/kdedakia/" target="_blank">
-    <i class="fa fa-github"></i>Github
-  </a>
-</li>
-    </ul>
-  </div>
+      <hr class="divider long" />
+      <p>Thoughts, stories and ideas.</p>
+      <hr class="divider short" />
+      <div class="navigation">
+        <div class="profile contact">
+          <nav class="navigation left">
+  <ul class="links">
+      <li class="nav-home ">
+        <a href="../index.html">Home</a>
+      </li>
+  </ul>
 </nav>
 
-    <div class="drawer-overlay"></div>
-    <main id="container" role="main" class="container">
-      <div class="surface">
-        <div class="surface-container">
-          <div data-pjax-container class="content">
-            
-<section class="wrapper wrapper-post">
-  <div class="wrapper-container">
-    <article itemscope itemtype="http://schema.org/BlogPosting" role="article" class="post post tag-getting-started">
-        <section class="post-container">
-          <header class="post-header">
-            <ul class="post-meta-list">
-              <li class="post-meta-item">
-                <time datetime="2017-08-07" itemprop="datePublished">
-                  7 hours ago
-                </time>
-              </li>
-                <li class="post-meta-item">
-                    <a itemprop="articleSection" href="../tag/getting-started/" data-pjax>Getting Started</a> 
-                </li>
-              <li class="post-meta-item">
-                <a href="index.html#disqus_thread" data-disqus-identifier="5988ebd59ca2acfbe8455e47">Comments</a>
-              </li>
-            </ul>
-            <h1 itemprop="name headline" class="post-title"><a href="index.html" itemprop="url" data-pjax title="Advanced Markdown tips">Advanced Markdown tips</a></h1>
-            <!--h2 itemprop="about" class="post-subtitle"></h2-->
-          </header>
-          <aside class="post-side">
-            <div class="post-author">
-              <div class="post-author-info">
-                <a href="index.html" class="post-author-name">
-                  Ghost
-                </a>
-                <p class="post-author-bio"></p>
-              </div>
-            </div>
-          </aside>
-          <div itemprop="articleBody" class="post-body">
-            <div class="kg-card-markdown"><p>There are lots of powerful things you can do with the Ghost editor</p>
-<p>If you've gotten pretty comfortable with <a href="../the-editor/">all the basics</a> of writing in Ghost, then you may enjoy some more advanced tips about the types of things you can do with Markdown!</p>
+          
+<nav class="navigation right">
+  <ul class="social expanded">
+
+  <!-- Twitter -->
+  <li class="social item hvr-grow-rotate">
+    <a rel="me" target="blank" href="https://twitter.com/kikobeats" title="@Kikobeats on Twitter">
+      <i class='icon icon-social-twitter'></i>
+      <span class="label">Twitter</span>
+    </a>
+  </li>
+
+  <!-- Linkedin -->
+  <li class="social item hvr-grow-rotate">
+    <a rel="me" target="blank" href="https://linkedin.com/in/kikobeats" title="Kikobeats on LinkedIn">
+      <i class='icon icon-social-linkedin'></i>
+      <span class="label">Linkedin</span>
+    </a>
+  </li>
+
+  <!-- Github -->
+  <li class="social item hvr-grow-rotate">
+    <a rel="me" target="blank" href="https://github.com/Kikobeats" title="Kikobeats on Github">
+      <i class='icon icon-social-github'></i>
+      <span class="label">Github</span>
+    </a>
+  </li>
+
+  <!-- RSS -->
+  <li class="social item hvr-grow-rotate">
+    <a href="../rss/index.html" title="Subscribe to RSS">
+      <i class='icon icon-rss'></i>
+      <span class="label">RSS</span>
+    </a>
+  </li>
+
+  </ul>
+</nav>
+          <section class="icon icon-search" id="search-container">
+  <hr class="divider short" />
+  <form target="blank" id="search-form" action="https://www.google.com/#q=site:http://localhost:2368">
+    <input type="text" name="search" placeholder="git, css, javascript,..." id="search-field" />
+  </form>
+</section>
+        </div>
+      </div>
+    </div>
+  </div>
+</aside>
+
+    <main data-no-instant>
+      <section class="content">
+        
+
+  <article class="post tag-getting-started">
+    <header>
+      <div class="post meta">
+        <time datetime="2017-08-07T22:08">07 Aug 2017</time>
+        <span class="post tags">in <a href="../tag/getting-started/index.html">Getting Started</a></span>
+
+
+        <span class="post reading-time"> ~ <span></span> read.</span>
+      </div>
+      <a title="Tweet 'Advanced Markdown tips'" href="https://twitter.com/intent/tweet?text=Advanced%20Markdown%20tips%20%C2%BB&amp;hashtags=Getting Started&amp;url=http://localhost:2368/advanced-markdown/">
+        <img id="post-image" src="https://casper.ghost.org/v1.0.0/images/advanced.jpg" alt="Advanced Markdown tips">
+        <h1 class="icon-reverse icon-social-twitter-post" id="post-title">Advanced Markdown tips</h1>
+      </a>
+    </header>
+
+    <div id="post-content" class="post tag-getting-started">
+      <div class="kg-card-markdown"><p>There are lots of powerful things you can do with the Ghost editor</p>
+<p>If you've gotten pretty comfortable with <a href="../the-editor/index.html">all the basics</a> of writing in Ghost, then you may enjoy some more advanced tips about the types of things you can do with Markdown!</p>
 <p>As with the last post about the editor, you'll want to be actually editing this post as you read it so that you can see all the Markdown code we're using.</p>
 <h2 id="specialformatting">Special formatting</h2>
 <p>As well as bold and italics, you can also use some other special formatting in Markdown when the need arises, for example:</p>
@@ -237,7 +221,7 @@ ghost.init({
 <p>One neat trick which you can use in Markdown to distinguish between different types of images is to add a <code>#hash</code> value to the end of the source URL, and then target images containing the hash with special styling. For example:</p>
 <p><img src="https://casper.ghost.org/v1.0.0/images/walking.jpg#full" alt="walking"></p>
 <p>which is styled with...</p>
-<pre><code>img[src$="#full"] {
+<pre><code>img[src$=&quot;#full&quot;] {
     max-width: 100vw;
 }
 </code></pre>
@@ -261,83 +245,52 @@ ghost.init({
 </ol>
 </section>
 </div>
-          </div>
-          <footer class="post-footer">
-            <div itemprop="author" itemscope itemtype="http://schema.org/Person" class="post-author">
-              <div class="post-author-info">
-                <h4 class="post-footer-heading">Written By</h4>
-                <a href="index.html" itemprop="url" class="post-author-name">
-                  <span itemprop="name">Ghost</span>
-                </a>
-                <p itemprop="description" class="post-author-bio"></p>
-                <p class="post-info">
-                  <b class="post-info-title">Published on</b>
-                  <time class="post-date">August 07, 2017</time>
-                </p>
-              </div>
-            </div>
-            <div class="post-social">
-              <h4 class="post-footer-heading">Spread the word</h4>
-              <a href="index.html#" data-action="share-twitter"><i class="fa fa-fw fa-lg fa-twitter"></i></a>
-              <a href="index.html#" data-action="share-facebook"><i class="fa fa-fw fa-lg fa-facebook"></i></a>
-              <a href="index.html#" data-action="share-gplus"><i class="fa fa-fw fa-lg fa-google-plus"></i></a>
-            </div>
-          </footer>
-        </section>
-      <section itemprop="comment" class="post-comments">
-        <div id="disqus_thread"></div>
-      </section>
-    </article>
+    </div>
 
-    <footer role="contentinfo" class="footer">
+    <div class="post related">
+        <a rel="prev" id="prev-btn" class="btn small square" href="../themes/index.html">← Setting up your own Ghost theme</a>
+
+        <a rel="next" id="next-btn" class="btn small square" href="../private-sites/index.html">Making your site private →</a>
+    </div>
+
+    <footer class="post comments">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+  (function() {
+  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+  dsq.src = '//' + window.disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </footer>
-  </div>
-</section>
 
-<script type="text/javascript">
-  if(GHOSTIUM.haveDisqus) {
-    var disqus_identifier = '5988ebd59ca2acfbe8455e47';
+  </article>
 
-    if(typeof DISQUS !== 'object') {
-      (function () {
-      var s = document.createElement('script'); s.async = true;
-      s.type = 'text/javascript';
-      s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-      (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-      }());
-    }
-  } else {
-    document.querySelector('.post-comments').remove();
-  }
-</script>
 
-          </div>
-        </div>
-      </div>
+        <footer>
+  <span class="copyright">
+    &copy; 2017. All rights reserved. Built with <a href="https://github.com/Kikobeats/uno-zen" target="_blank">Uno Zen</a> under <a href="https://ghost.org/" target="_blank">Ghost</a>. Original design by <a href="https://daleanthony.com" target="_blank">Dale Anthony</a>.
+  </span>
+</footer>
+      </section>
     </main>
 
-    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.1.6/zepto.min.js"></script>
+<script>jQuery = Zepto</script>
 
-    <script src="../assets/js/foot-scripts.min.js?v=8ebd12cc77"></script>
-
-    <script type="text/javascript">
-
-      if(GHOSTIUM.haveGA) {
-        (function(g,h,o,s,t,z){g.GoogleAnalyticsObject=s;g[s]||(g[s]=
-        function(){(g[s].q=g[s].q||[]).push(arguments)});g[s].s=+new Date;
-        t=h.createElement(o);z=h.getElementsByTagName(o)[0];
-        t.src='//www.google-analytics.com/analytics.js';
-        z.parentNode.insertBefore(t,z)}(window,document,'script','ga'));
-        ga('create',ga_ua);ga('send','pageview');
-      }
-
-      if(GHOSTIUM.haveDisqus) {
-        (function () {
-        var s = document.createElement('script'); s.async = true;
-        s.type = 'text/javascript';
-        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-        }());
-      }
-    </script>
+    <script src="../assets/js/uno-zen.common.js?v=0b4ea0a0b9" type="text/javascript" charset="utf-8"></script>
+      <script src="../assets/js/uno-zen.post.js?v=0b4ea0a0b9" type="text/javascript" charset="utf-8"></script>
+    <script>
+  if (window.ga_id) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', window.ga_id, 'auto');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+  }
+</script>
   </body>
+</html>
